@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.contain{
+  background-image: url("https://png.pngtree.com/background/20211217/original/pngtree-world-map-halftone-overlapping-technology-style-news-background-picture-image_1593663.jpg");
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

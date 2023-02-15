@@ -1,0 +1,6 @@
+.cardtitle{
+    cursor: pointer;
+    }
+    .cardtitle :hover{
+        box-shadow: 2px 2px grey;
+    }
