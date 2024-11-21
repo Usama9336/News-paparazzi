@@ -38,7 +38,7 @@ const handlenextclick=async()=>{
   updateNews();
   }*/}
    const fetchMoreData=async()=>{
-    let url=`https://newsapi.org/v2/top-headlines?country=in&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}`;
+    let url=`https://newsapi.org/v2/top-headlines?category=${props.category}&apiKey=${props.apiKey}&page=${page+1}`;
     setpage(page+1)
     setloading(true);
     let data= await fetch(url);
