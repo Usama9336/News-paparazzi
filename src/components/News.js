@@ -10,7 +10,7 @@ const News =(props)=> {
     //document.title=`${props.category}`-'NewsPaparazzi';//747431a5242541a8a6a2bad50362cc47
   const updateNews=async()=>{
     props.setProgress(10);
-  let url=`https://newsapi.org/v2/top-headlines?country=in&category=${props.category}&apiKey=${props.apiKey}`;
+  let url=`https://newsapi.org/v2/top-headlines?category=${props.category}&apiKey=${props.apiKey}`;
   setloading(true);
   let data= await fetch(url);
   props.setProgress(30);
